@@ -1,0 +1,10 @@
+abbr[title]:hover:after {
+  content: '(' attr(title) ')';
+}
+abbr {
+  font-weight: bold;
+  text-decoration: none;
+}
+input[required]:after {
+  content: '*';
+}
